@@ -1,8 +1,7 @@
 
 ### `Link` : https://redux-counter-nine.vercel.app/
 
-![image](https://user-images.githubusercontent.com/58121395/171951023-8740b136-df38-48ae-924b-d34f19c0b7c3.png)
-
+![image](https://user-images.githubusercontent.com/58121395/171951359-9e60a20a-a430-4cd0-baed-d11f67b8c153.png)
 
 
 # Getting Started with Create React App
