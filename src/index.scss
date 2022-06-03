@@ -1,0 +1,68 @@
+$plum: #2F0039;
+$hot-pink: #FE2A97;
+$slime-green: #00CE5D;
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $plum;
+    color: $hot-pink;
+    margin: 0;
+    padding: 0;
+
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .block {
+        margin-top: 5%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-size: 72px;
+                text-shadow: 1px 1px 2px #333;
+                margin: 0 15px;
+            }
+
+
+
+        }
+    }
+}
+
+button {
+    border: 1px solid $hot-pink;
+    background: transparent;
+    color: $hot-pink;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 15px;
+
+    &:hover {
+        border: 1px solid $slime-green;
+        color: $slime-green;
+    }
+
+    .textCenter {
+        text-align: center;
+    }
+
+    .flexCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
